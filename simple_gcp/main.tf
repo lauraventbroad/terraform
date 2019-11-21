@@ -1,8 +1,6 @@
 # Read also the Terraform GCP provider documentation
 # https://www.terraform.io/docs/providers/google/getting_started.html
 
-credential_path = "C:/creds"
-
 provider "google" {
 #  Terraform commandline uses environment variable GOOGLE_CLOUD_KEYFILE_JSON=<GCP JSON>. 
 #  -> IM uses the values defined in the CDA Infrastructure Provider
