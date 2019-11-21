@@ -3,7 +3,7 @@
 
 
 provider "google" {
-  credentials = file("C:/Automic/Tools/GCP-key/Demos-ESD-Auto-EMEA-PSL-148d345550fd.json")
+  #credentials = file("C:/Automic/Tools/GCP-key/Demos-ESD-Auto-EMEA-PSL-148d345550fd.json")
   project     = "demos-esd-auto-emea-psl"
   region      = "europe-west3"
 }
